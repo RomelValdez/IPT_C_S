@@ -6,11 +6,13 @@ public class salesPerson extends employee{
     public salesPerson(String spName){
         super(spName);
     }
+
     public void spEmpNum(int employeeNum){
         this.employeeNum=employeeNum;
     }
     public int spEmpNum(){
         return employeeNum;
+
     }
     public void spSalary(double basicSalary){
         this.basicSalary=basicSalary;
