@@ -6,9 +6,11 @@ public class secretary extends employee{
     public secretary(String sName){
         super(sName);
     }
+
     public void sEmpNum(int employeeNum){
         this.employeeNum=employeeNum;
     }
+
     public int sEmpNum(){
         return employeeNum;
     }
@@ -18,5 +20,6 @@ public class secretary extends employee{
     public double sSalary(){
         return basicSalary;
    
+
 }
 }
